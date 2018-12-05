@@ -1,0 +1,25 @@
+{% block department %}
+    <p>
+        ID: {% block content %}{% endblock %}
+    </p>
+    <p>
+        Кафедра: {% block content %}{% endblock %}
+    <p>
+        Заф. кафедры: {% block content %}{% endblock %}
+    </p>
+    <p>Преподаватели:
+    <ol>
+        <li>{% block content1 %}{% endblock %} </li>
+        <li>{% block content2 %}{% endblock %}</li>
+        <li>{% block content3 %}{% endblock %}</li>
+    </ol> </p>
+    <p>Образовательные программы:
+    <ul>
+        <li>{% block content %}{% endblock %}</li>
+        <li>{% block content %}{% endblock %}</li>
+        <li>{% block content %}{% endblock %}</li>
+    </ul></p>
+    <br>
+    <br>
+{% endblock %}
+

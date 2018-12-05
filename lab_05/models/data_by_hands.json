@@ -1,0 +1,252 @@
+{
+  "university": {
+    "name": "ИТМО",
+    "address": {
+      "streetAddress": "Kroverksky pr. 49",
+      "city": "Санкт-Петербург",
+      "postalCode": 197101,
+      "units": [
+        {
+          "administrative": [
+            {
+              "did": 1
+            },
+            {
+              "did": 2
+            }
+          ]
+        },
+        {
+          "scientific-education": [
+            {
+              "did": 3
+            },
+            {
+              "did": 4
+            },
+            {
+              "did": 5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "heads": {},
+  "employees": {},
+  "teachers": {}
+  "students": {},
+  "units": {
+    "administrative": {
+      "1": {
+        "id:": "ar1",
+        "name": "ректорат",
+        "head": {
+          "uid": 4
+        },
+        "employees": [
+          {
+            "uid": 1
+          },
+          {
+            "uid": 2
+          },
+          {
+            "uid": 3
+          }
+        ]
+      },
+      "2": {
+        "id:": "ar1",
+        "name": "бухгалтерия",
+        "head": {
+          "uid": 5
+        },
+        "employees": [
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "scientific-education": {
+      "3": {},
+      "4": {}
+    }
+  },
+  "mega-faculties": {
+    "faculties": {}
+    |
+    |
+    "facultiesID": {}
+  },
+  "faculties": {},
+  "programs": {},
+  "studyYear": {},
+  "groups": {},
+  "subject": {}
+}
+
+
+
+
+
+
+//# data = {"name": "ИТМО",
+//#         "address": {
+//#             "streetAddress": "Kroverksky pr. 49",
+//#             "city": "Санкт-Петербург",
+//#             "postalCode": 197101,
+//#         },
+//#         "head": {},
+//#         "unit": {
+//#             "administrative": [
+//#                 {
+//#                     "id:": "ar1",
+//#                     "name": "ректорат",
+//#                     "head": {},
+//#                     "employees": [
+//#                         {},
+//#                         {},
+//#                         {}
+//#                     ]
+//#                 },
+//#                 {"id:": "ar1",
+//#                  "name": "бухгалтерия",
+//#                  "head": {},
+//#                  "employees": [
+//#                      {},
+//#                      {},
+//#                      {}
+//#                  ]
+//#                  }
+//#             ],
+//#             "scientific-education": [
+//#                 {
+//#                     "id:": "ar1",
+//#                     "name": "Мегафакультет ",
+//#                     "head": {},
+//#                     "employees": [
+//#                         {},
+//#                         {},
+//#                         {}
+//#                     ],
+//#                     "faculties": [
+//#                         {
+//#                             "id:": "ar1",
+//#                             "name": "Кафедра ",
+//#                             "head": {},
+//#                             "teachers": [
+//#                                 {},
+//#                                 {},
+//#                                 {}
+//#                             ],
+//#                             "programs": [
+//#                                 {
+//#                                     "id:": "ar1",
+//#                                     "name": "",
+//#                                     "head": {},
+//#                                     "subject": "",
+//#                                     "studyYear": {
+//#                                         "year": "",
+//#                                         "groups": [
+//#                                             {
+//#                                                 "name": "",
+//#                                                 "students": [
+//#                                                     {},
+//#                                                     {},
+//#                                                     {}
+//#                                                 ]
+//#                                             }
+//#                                         ]
+//#
+//#                                     }
+//#                                 },
+//#                                 {},
+//#                                 {}
+//#                             ]
+//#                         },
+//#                         {
+//#                             "id:": "ar1",
+//#                             "name": "Кафедра ",
+//#                             "head": {},
+//#                             "teachers": [
+//#                                 {},
+//#                                 {},
+//#                                 {}
+//#                             ],
+//#                             "programs": []
+//#                         },
+//#                         {
+//#                             "id:": "ar1",
+//#                             "name": "Кафедра ",
+//#                             "head": {},
+//#                             "teachers": [
+//#                                 {},
+//#                                 {},
+//#                                 {}
+//#                             ],
+//#                             "programs": []
+//#                         }
+//#                     ]
+//#                 },
+//#                 {},
+//#                 {}
+//#             ]
+//#         }
+//#         }
+//#
+
+
+
+
+
+
+//{
+//  "name": "ИТМО",
+//  "address": {
+//    "streetAddress": "Kroverksky pr. 49",
+//    "city": "Санкт-Петербург",
+//    "postalCode": 197101
+//  },
+//  "subdivision": {
+//    "administative": [
+//      {
+//        "id:": "ar1",
+//        "name": "ректорат",
+//        "head": {
+//          "firstname": "Иван",
+//          "lastname": "Иванов",
+//          "patronymic": "-",
+//          "position": "руководитель",
+//          "id": "hr1"
+//        },
+//        "employees": [
+//          {
+//            "firstname": "Иван",
+//            "lastname": "Иванов",
+//            "patronymic": "-",
+//            "position": "сотрудник",
+//            "id": "er1"
+//          },
+//          {
+//            "firstname": "Иван",
+//            "lastname": "Иванов",
+//            "patronymic": "-",
+//            "position": "сотрудник",
+//            "id": "er2"
+//          },
+//          {
+//            "firstname": "Иван",
+//            "lastname": "Иванов",
+//            "patronymic": "-",
+//            "position": "сотрудник",
+//            "id": "er3"
+//          }
+//        ]
+//      }
+//    ]
+//  }
+//}
+
+
